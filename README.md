@@ -20,7 +20,7 @@ Elemental is a weather app that gets the current user's location and shows the w
 
 ## Demo
 
-You can view a live demo of Elemental [here](https://elemental-weather.netlify.app/)
+You can view a live demo of Elemental [here](https://vercel.live/link/elemental-ten.vercel.app)
 
 ## Screenshots
 
