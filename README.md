@@ -22,6 +22,9 @@ Elemental is a weather app that gets the current user's location and shows the w
 
 You can view a live demo of Elemental [here](https://elemental-ten.vercel.app)
 
+### Article
+Read the DEV article [here](https://dev.to/anni/how-to-build-a-weather-forecast-app-with-react-typescript-tolgee-and-openweather-api-2197)
+
 ## Screenshots
 
 ![Weather App Screenshot](https://github.com/user-attachments/assets/6030830a-ab59-407e-ae1a-cde012179360)
@@ -67,34 +70,7 @@ npm run dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app
-
-5. To host on Netlify or Vercel, run the following command:
-
-```bash
-npm i -D @tolgee/cli
-
-npx tolgee login <your-tolgee-api-key>
-
-npx tolgee --project-id <your-project-id-number> pull --path public/i18n
-```
-
-Add the following code to your main.tsx file:
-
-```typescript
-const tolgee = Tolgee()
-  .use(DevTools())
-  .use(BackendFetch()) // add this particular line
-  .use(FormatSimple())
-  .init({
-    language: "en",
-
-    // for development
-    apiUrl: process.env.VITE_APP_TOLGEE_API_URL,
-    apiKey: process.env.VITE_APP_TOLGEE_API_KEY,
-  });
-```
-
-Now you can go ahead and deploy your app to Netlify or Vercel.
+your-project-id-number> pull --path public/i18n
 
 ## License
 
